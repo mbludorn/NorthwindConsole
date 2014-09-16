@@ -87,7 +87,9 @@
     <Compile Include="Product.cs">
       <DependentUpon>NorthwindDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Region.cs">
       <DependentUpon>NorthwindDataModel.tt</DependentUpon>
